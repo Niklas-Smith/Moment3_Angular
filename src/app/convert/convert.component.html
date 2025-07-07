@@ -1,1 +1,30 @@
-<h2>Convert sida</h2>
+<h2>konvertera</h2>
+
+    <div class="celsiusAndFahrenheit">
+<label for="convert">Sätt in värde</label>
+<br>
+<input type="number" id="convert" [(ngModel)] ="convert">
+
+<br>
+    <button (click)="convertFtoC()">konvertera F° to C°s</button>
+<br>
+    <button (click)="convertCtoF()">konvertera C° to F°</button>
+<br>
+<p>Det blir: <br>{{result}} grader</p>
+</div>
+
+
+
+<div class="feetAndMeter">
+ <label for="feetToMeter">Sätt in värde</label>
+ <br>
+<input type="number" id="feetToMeter" [(ngModel)] ="feet">
+ <br>
+
+    <button (click)="feetToMeter()">konvertera Feet to meter</button>
+ <br>
+
+    <button (click)="meterToFeet()">konvertera Meter to Feet</button>   
+     <br>
+<p>Det blir: <br>{{result2}} </p>
+</div>

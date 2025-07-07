@@ -9,68 +9,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 1em;
 line-height: 1.5em;
 background-color: rgb(243, 235, 225);
-    max-width: 1200px;
-    margin: 0 auto;
+  
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 
 }
 
 
-header {
 
-background-color: #420101;
+
+main{
+background-color: #fcf9f9;
 padding: 1em;
-
-
-
-}
-
-ul {
-
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-
-
-ul li {
-
-margin-right: 0.8em;
-
-}
-
-ul li a {
-text-decoration: none;
-color: white;
-font-size: 1.2em;
-
-
-
-}
-
-
-.logo-link {
-
- text-decoration: none;
-
-}
-
-.nav-link {
-display: flex;
-justify-content: center;
-
-}
-
-h1 {
-color: white;
-display: flex;
-justify-content: center;
-padding-top: 1em;
-font-size: 1.8em;
-margin-bottom: 1em;
+min-height: 20em;
+box-shadow: 0 0 0.3em rgb(5, 0, 0);
 
 }

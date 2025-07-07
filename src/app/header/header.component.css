@@ -1,0 +1,58 @@
+ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul li {
+
+margin-right: 1.2em;
+
+}
+
+ul li a {
+text-decoration: none;
+color: white;
+font-size: 1.4em;
+
+
+
+}
+
+
+.logo-link {
+
+ text-decoration: none;
+
+}
+
+.nav-link {
+display: flex;
+justify-content: center;
+
+}
+
+h1 {
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 1em;
+font-size: 1.8em;
+margin-bottom: 1em;
+font-weight: bold;
+
+}
+
+header {
+
+background-color: #420101;
+padding: 1em;
+}
+
+.active {
+background-color: rgb(22, 39, 3);
+padding: 0.2em;
+
+}
